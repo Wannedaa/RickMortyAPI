@@ -9,3 +9,47 @@
   flex-wrap: wrap;
   padding: 30px;
 }
+
+#imgInicio{
+  width: 20%;
+}
+
+img{
+  width: 50%;
+  padding: 0%;
+  border-radius: 10%;
+}
+
+h1{
+  color: #036eff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  text-shadow: rgb(152, 221, 93) 3px 0px 0px, rgb(152, 221, 93) 2.83487px 0.981584px 0px, rgb(152, 221, 93) 2.35766px 1.85511px 0px, rgb(152, 221, 93) 1.62091px 2.52441px 0px, rgb(152, 221, 93) 0.705713px 2.91581px 0px, rgb(152, 221, 93) -0.287171px 2.98622px 0px, rgb(152, 221, 93) -1.24844px 2.72789px 0px, rgb(152, 221, 93) -2.07227px 2.16926px 0px, rgb(152, 221, 93) -2.66798px 1.37182px 0px, rgb(152, 221, 93) -2.96998px 0.42336px 0px, rgb(152, 221, 93) -2.94502px -0.571704px 0px, rgb(152, 221, 93) -2.59586px -1.50383px 0px, rgb(152, 221, 93) -1.96093px -2.27041px 0px, rgb(152, 221, 93) -1.11013px -2.78704px 0px, rgb(152, 221, 93) -0.137119px -2.99686px 0px, rgb(152, 221, 93) 0.850987px -2.87677px 0px, rgb(152, 221, 93) 1.74541px -2.43999px 0px, rgb(152, 221, 93) 2.44769px -1.73459px 0px, rgb(152, 221, 93) 2.88051px -0.838247px 0px;
+}
+
+.imgPersonaje{width: 25%}
+
+p{
+  color: #036eff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-shadow: rgb(152, 221, 93) 3px 0px 0px, rgb(152, 221, 93) 2.83487px 0.981584px 0px, rgb(152, 221, 93) 2.35766px 1.85511px 0px, rgb(152, 221, 93) 1.62091px 2.52441px 0px, rgb(152, 221, 93) 0.705713px 2.91581px 0px, rgb(152, 221, 93) -0.287171px 2.98622px 0px, rgb(152, 221, 93) -1.24844px 2.72789px 0px, rgb(152, 221, 93) -2.07227px 2.16926px 0px, rgb(152, 221, 93) -2.66798px 1.37182px 0px, rgb(152, 221, 93) -2.96998px 0.42336px 0px, rgb(152, 221, 93) -2.94502px -0.571704px 0px, rgb(152, 221, 93) -2.59586px -1.50383px 0px, rgb(152, 221, 93) -1.96093px -2.27041px 0px, rgb(152, 221, 93) -1.11013px -2.78704px 0px, rgb(152, 221, 93) -0.137119px -2.99686px 0px, rgb(152, 221, 93) 0.850987px -2.87677px 0px, rgb(152, 221, 93) 1.74541px -2.43999px 0px, rgb(152, 221, 93) 2.44769px -1.73459px 0px, rgb(152, 221, 93) 2.88051px -0.838247px 0px;
+}
+
+.tituloCard{
+  color: rgb(61, 63, 65);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: rgb(43, 191, 255) 3px 0px 0px, rgb(43, 191, 255) 2.83487px 0.981584px 0px, rgb(43, 191, 255) 2.35766px 1.85511px 0px, rgb(43, 191, 255) 1.62091px 2.52441px 0px, rgb(43, 191, 255) 0.705713px 2.91581px 0px, rgb(43, 191, 255) -0.287171px 2.98622px 0px, rgb(43, 191, 255) -1.24844px 2.72789px 0px, rgb(43, 191, 255) -2.07227px 2.16926px 0px, rgb(43, 191, 255) -2.66798px 1.37182px 0px, rgb(43, 191, 255) -2.96998px 0.42336px 0px, rgb(43, 191, 255) -2.94502px -0.571704px 0px, rgb(43, 191, 255) -2.59586px -1.50383px 0px, rgb(43, 191, 255) -1.96093px -2.27041px 0px, rgb(43, 191, 255) -1.11013px -2.78704px 0px, rgb(43, 191, 255) -0.137119px -2.99686px 0px, rgb(43, 191, 255) 0.850987px -2.87677px 0px, rgb(43, 191, 255) 1.74541px -2.43999px 0px, rgb(43, 191, 255) 2.44769px -1.73459px 0px, rgb(43, 191, 255) 2.88051px -0.838247px 0px;
+}
+
+.tituloCard:hover{
+  color: #2bff00;
+}
+
+.volver{
+  background-color: #036eff;
+  padding: 1%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}

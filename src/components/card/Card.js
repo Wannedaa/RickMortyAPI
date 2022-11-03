@@ -1,7 +1,9 @@
 import React from 'react'
+import { Routes, Route, Link } from 'react-router-dom';
 import { Card, Icon, Image } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 import './Card.css'
+import "../../App.css";
 
 
 function CardExampleCard(props){
@@ -12,12 +14,18 @@ function CardExampleCard(props){
             <Card>
             <Image src={character.image} wrapped ui={false} />
             <Card.Content>
-              <Card.Header>{character.name}</Card.Header>
+              <Link to={"/characters/"+character.id}>
+              <Card.Header><h1 className='tituloCard'>{character.name}</h1></Card.Header>
+              </Link>
+              <Card>{character.status}</Card>
               <Card.Meta>
-                <span className='date'>{character.episode.length}</span>
+                <span className='date'>Episodes :{character.episode.length}</span>
               </Card.Meta>
               <Card.Description>
                 {character.species}
+              </Card.Description>
+              <Card.Description>
+                id: {character.id}
               </Card.Description>
             </Card.Content>
           </Card>

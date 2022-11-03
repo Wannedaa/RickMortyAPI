@@ -1,28 +1,18 @@
 import './App.css';
-import CardExampleCard from './components/card/Card';
-import { useState, useEffect } from 'react';
-import axios from 'axios';
+import { Routes, Route, Link } from 'react-router-dom';
+import Home from './components/Home/Home';
+import Characters from './components/Characters/Characters';
+import Personaje from './components/personaje/Personaje';
+
 
 function App() {
-  const [characters, setData] = useState(null);
-  const [isloading, setLoading] = useState(true);
-
-  useEffect(() => {  
-    axios.get("https://rickandmortyapi.com/api/character").then((response) => {
-      setData(response.data.results);
-      setLoading(false);
-    });
-  }, [])
-
   return (
     <div className="App">
-      <div className='container'>
-      {characters ? (
-        <CardExampleCard info = {characters}/>
-      )
-      : (<div></div>)
-    }
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="Characters" element={<Characters />} />
+        <Route path="/Characters/:id" element={<Personaje />} />
+      </Routes>
     </div>
   );
 }
